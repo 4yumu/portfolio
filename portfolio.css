@@ -142,11 +142,16 @@ h1{
 }
 #Work :nth-child(3){
     position: relative;
-    left: 43vw;
+    left: 10vw;
     top: 144px;
-    width: 500px;
     height: 170px;
-    background-color: white;
+    margin: 2em auto;
+ padding: 1em;
+ width: 30%;
+ color: #555555; /* 文字色 */
+ background-color: #FFFFE0; /* 背景色 */
+ box-shadow: 0 0 5px 2px #ffa042, 0 0 5px 2px #ffa042 inset; /* 影 */
+ border-radius: 2em .7em 3em .9em/.8em 3em .7em 2em; 
 }
 #Work :nth-child(4){
     position: relative;
@@ -155,11 +160,17 @@ h1{
 }
 #Work :nth-child(5){
     position: relative;
-    left: 63vw;
+    left: 30vw;
     top: -1vh;
     width: 500px;
     height: 190px;
-    background-color: white;
+    margin: 2em auto;
+    padding: 1em;
+    width: 30%;
+    color: #555555; /* 文字色 */
+    background-color: #FFFFE0; /* 背景色 */
+    box-shadow: 0 0 5px 2px #ffa042, 0 0 5px 2px #ffa042 inset; /* 影 */
+    border-radius: 2em .7em 3em .9em/.8em 3em .7em 2em; 
 }
 #Work :nth-child(6){
     position: relative;
@@ -168,9 +179,14 @@ h1{
 }
 #Work :nth-child(7){
     position: relative;
-    left: 25vw;
-    top: -22vh;
-    width: 500px;
-    height: 230px;
-    background-color: white;
+    left: -10vw;
+    top: -27vh;
+    height: 200px;
+    margin: 2em auto;
+    padding: 1em;
+    width: 30%;
+    color: #555555; /* 文字色 */
+    background-color: #FFFFE0; /* 背景色 */
+    box-shadow: 0 0 5px 2px #ffa042, 0 0 5px 2px #ffa042 inset; /* 影 */
+    border-radius: 2em .7em 3em .9em/.8em 3em .7em 2em; 
 }
