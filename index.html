@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>portfolio</title>
+</head>
+<header>
+    <!-- <img src ="imgfile/titlelogo.png" width="300" > -->
+    <nav id = menulist>
+      <ul style = "display: block;">
+        <li><a href="#Top">Top</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+<body>
+  <div id="particle-canvas" id="Top">
+      <img src ="imgfile/logo.png" width="700" >
+   </div>
+  <div class="slide2 slide" id="About">
+    <h1>About</h1>
+    <img src ="imgfile/me.JPG" alt="a">
+    <div class="container">
+      <div class="star"></div>
+    </div>
+    <p>石原 歩夢</p>
+    <p>ishihara ayumu</p>
+    <p>2003/08/02</p>
+    <p>日々勉強。現在、夏季期間での資格取得を目指しています。</p>
+  </div>
+  <div class="slide3 slide" id="Work">
+    <h1>Work</h1>
+    <img src ="imgfile/mama.png" width="300px">
+    <div id = text1><p>Mayaを使ったCG制作。<br>制作期間：１ヶ月</div>
+    <img src ="imgfile/prog.png" width="300px">
+    <div id = text2><p>C++を使った画像処理。openCVで領域検出。<br>現在勉強中。</p></div>
+    <img src ="imgfile/shoji.png" width="300px">
+    <div id = text3><p>有志で集まったメンバーで制作をしたゲーム。<br>東京ゲームショー2022、ゲームマーケット2022に出展。<br>制作期間:4ヶ月</p></div>
+   </div>
+  <div class="slide1 slide" id="Contact">
+     <h1>Contact</h1>
+     <form>
+     <div>
+      <input type="text" name="onamae" id="onamae" placeholder="Your Name"required>
+    </div>
+    <div>
+      <input type="email" name="email" id="email" placeholder="E-mail Address">
+    </div>
+    <div>
+      <textarea name="contacttext" id="contacttext" cols="50" rows="10" placeholder="Inquiry Content"></textarea>
+    </div>
+    <button type="submit">Send</button>
+  </form>
+  </div>
+    <script src="portfolio.js"></script>
+</body>
+</html>

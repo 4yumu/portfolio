@@ -1,0 +1,181 @@
+html,
+body {
+     margin: 0;
+     padding: 0; 
+     max-width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  
+  .slide {
+    height: 100vh;
+   }
+   .slide1 {
+     background-color: #fff; 
+     background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+     linear-gradient(#eee .1em, transparent .1em);
+     background-size: 100% 1.2em;
+   }
+   .slide2 {
+     background:
+       linear-gradient(135deg, #A8B1BB 22px, #ffffff 22px, #ffffff 24px, transparent 24px, transparent 67px, #ffffff 67px, #ffffff 69px, transparent 69px),
+       linear-gradient(225deg, #A8B1BB 22px, #ffffff 22px, #ffffff 24px, transparent 24px, transparent 67px, #ffffff 67px, #ffffff 69px, transparent 69px)0 64px;
+     background-color:#A8B1BB;
+     background-size: 64px 128px
+   }
+   .slide3 {
+     background: radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+       radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+       linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+       linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+     background-color: slategray;
+     background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+   }
+   .fix-it {
+      background-attachment: fixed;
+   }
+   #Top img{
+     z-index: 1000;
+     position: absolute;
+     display: block;
+     margin: auto;
+     padding: 20%;
+     text-align: center;
+   }
+#menulist ul{
+    z-index: 10;
+    display:none;
+    position:absolute;
+    position:fixed;
+    font-family: "Courier New", Courier, AXIS Std,monospace, Arial, serif,ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3, Hiragino Kaku Gothic Pro, ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, Osaka, ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯, MS PGothic;
+    top:200px;
+    left:10px;
+    list-style:none;
+    border:0;
+    outline:0;
+    font-size: 20px;
+}
+
+#menulist li{
+    margin:10px;
+}
+#menulist li a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+#menulist li a:hover{
+    color: #ef482d;
+}
+
+h1{
+    max-width: 100%;
+    position: relative;
+    left: 250px;
+    top: 100px;
+    font-size: 50px;
+}
+
+#About p{
+    
+    position: relative;
+    z-index: 3;
+    left: 40vw;
+    top: -50vh;
+    font-size: 20px;
+    font-weight: light;
+}
+.star {
+    position: relative;
+    z-index: 1;
+    left: 35vw;
+    top: -100px;
+	width: 500px;
+	height: 500px;
+	background: #EF6C00;
+	clip-path: polygon(50% 5%, 61% 40%, 98% 40%, 68% 62%, 79% 96%, 50% 75%, 21% 96%, 32% 62%, 2% 40%, 39% 40%);
+}
+#About img{
+    z-index: 2;
+    width: 200px;
+    height: auto;
+    border-radius: 20%;
+    position: relative;
+    left: 50vw;
+    top: 200px;
+}
+#onamae{
+    position: relative;
+    width: 370px;
+    left: 40vw;
+    top: 200px;
+}
+#email{
+    position: relative;
+    width: 370px;
+    left: 40vw;
+    top: 210px;
+}
+#contacttext{
+    position: relative;
+    left: 40vw;
+    top: 220px;
+}
+#Contact button{
+    position: relative;
+    width: 380px;
+    left: 40vw;
+    top: 230px;
+}
+/* *{
+    outline: 2px red solid;
+} */
+
+#Work :nth-child(2){
+    position: absolute;
+    left: 20vw;
+    top: 234vh;
+}
+#Work :nth-child(2n):hover{
+    transform:scale(1.2,1.2);
+}
+#Work :nth-child(3){
+    position: relative;
+    left: 43vw;
+    top: 144px;
+    width: 500px;
+    height: 170px;
+    background-color: white;
+}
+#Work :nth-child(4){
+    position: relative;
+    left: 40vw;
+    top: 20vh;
+}
+#Work :nth-child(5){
+    position: relative;
+    left: 63vw;
+    top: -1vh;
+    width: 500px;
+    height: 190px;
+    background-color: white;
+}
+#Work :nth-child(6){
+    position: relative;
+    left: 60vw;
+    top: 3vh;
+}
+#Work :nth-child(7){
+    position: relative;
+    left: 25vw;
+    top: -22vh;
+    width: 500px;
+    height: 230px;
+    background-color: white;
+}
+
+#particle-canvas {
+    width: 100%;
+    height: 100%;
+  }
